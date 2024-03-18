@@ -17,6 +17,7 @@ jobs:
     - uses: actions/setup-java@v4.2.1
       with: 
         java-version: 17
+        distribution: microsoft
     - name: Install jcargo
       run: cargo install --git https://github.com/heipiao233/jcargo --rev 7e2da83c
     - name: Build
