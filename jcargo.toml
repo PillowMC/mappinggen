@@ -1,0 +1,6 @@
+group = "net.pillowmc"
+artifact = "mappinggen"
+version = "0.1.0"
+
+[dependencies]
+compileRuntime = ["net.fabricmc:mapping-io:0.5.1"]
